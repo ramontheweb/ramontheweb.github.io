@@ -1,3 +1,9 @@
+**body style**
+body {
+  background-image: ;
+}
+
+**unordered lists**
 ul.no-bullets {
   list-style-type: none; 
 }
