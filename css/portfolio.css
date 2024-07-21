@@ -1,10 +1,48 @@
-**body style**
 body {
-  background-image: url("https://raw.githubusercontent.com/ramontheweb/ramontheweb.github.io/main/content/bg.png");
 background-color: #cccccc;
 }
 
-**unordered lists**
 ul.no-bullets {
   list-style-type: none; 
+}
+
+.inline {
+   display:inline-block;
+   margin-right:5px;
+}
+
+
+.button {
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.button1:hover {
+  background-color: #555555;
+  color: white;
 }
